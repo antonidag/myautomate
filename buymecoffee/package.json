@@ -1,0 +1,18 @@
+{
+  "name": "buymecoffee",
+  "version": "1.0.0",
+  "description": "Automation for uploading post to buy me coffee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Anton Björkman",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.5.2",
+    "shelljs": "^0.8.5"
+  },
+  "type": "module"
+}
